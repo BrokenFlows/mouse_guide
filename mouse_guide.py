@@ -85,6 +85,7 @@ class MouseGuide:
             self.last_pos = pos
 
 mouse_guide = MouseGuide(500, 500)
+# uncomment to show the mouse guide overlay when talon starts
 # mouse_guide.enable()
 
 mod = Module()
